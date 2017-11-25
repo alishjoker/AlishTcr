@@ -15,7 +15,7 @@ print "Login Berhasil"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""********Command********
+helpMessage ="""********List Dastorat Alish Joker Bot********
 
 [Id︎]
 [Mid]
@@ -53,7 +53,7 @@ helpMessage ="""********Command********
 
 [*] Command kicker [*]
 
-[Bye]
+[@Bye]
 [Kill ban]
 [Kill 「@」]
 [Ban 「@」] By Tag
@@ -90,9 +90,9 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':True,
-    'message':"salam Be Friendm Khosh Omadi add Me line.me/R/ti/p/%40nlr3381q",
+    'message':"Salam Khosh Omadi Man Bot Cancel Hastam Mano Davat Kon bad ( Cancel ) Befrst",
     "lang":"JP",
-    "comment":"salam Be Friendm Khosh Omadi add Me line.me/R/ti/p/%40nlr3381q",
+    "comment":"Salam Khosh Omadi Man Bot Cancel Hastam Mano Davat Kon bad ( Cancel ) Befrst",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -795,7 +795,7 @@ def bot(op):
                 kk.sendText(msg.to,Bmid)
             elif "Alishjoker3 mid" == msg.text:
                 kc.sendText(msg.to,Cmid)
-            elif msg.text in ["Wkwkwk"]:
+            elif msg.text in ["Hahaha"]:
                 msg.contentType = 7
                 msg.text = None
                 msg.contentMetadata = {
@@ -1391,7 +1391,7 @@ def bot(op):
                         G.preventJoinByTicket = True
                         kc.updateGroup(G)
 #-----------------------------------------------
-            elif msg.text in ["Bye all"]:
+            elif msg.text in ["@bye"]:
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
@@ -1400,14 +1400,14 @@ def bot(op):
                         kc.leaveGroup(msg.to)
                     except:
                         pass
-            elif msg.text in ["Bye 1"]:
+            elif msg.text in ["Bye"]:
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
                         ki.leaveGroup(msg.to)
                     except:
                         pass
-            elif msg.text in ["Bye 2"]:
+            elif msg.text in ["L"]:
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
