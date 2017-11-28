@@ -72,7 +72,7 @@ helpMessage ="""********List Dastorat Alish Joker Bot********
 
 
 ===============
-[ alish Bot joker Caspian™ Add Me line.me/R/ti/p/%40nlr3381q]
+[ alish Bot joker Caspian™ Add Me line.me/R/ti/p/~joker.alish]
 ===============
 """
 KAC=[cl,ki,kk,kc]
